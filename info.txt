@@ -1,0 +1,82 @@
+we’ll be integrating the Machine
+Learning model for Text Sentiment Analysis in our
+webpage for prediction.
+We would take the user input and predict the emotion
+related to the text entered. Thus, the user is sending the
+request to predict the sentiment and in return, the
+emotions will be displayed. So, for example when a user
+enters ‘It was a great day’, the result will be a Happy or
+smiling emoji.
+
+To process this request and make it reach the Python file
+with API, an intermediary is used which is known as
+AJAX.
+
+
+AJAX helps in refreshing a part of the HTML page rather
+than reloading the whole page again and again.
+
+ we’ll be learning about AJAX. and how it can be
+used to send requests and receive responses from HTML
+pages.
+
+When we search for something on a web browser and the
+time when a web page is completely loaded:
+● The browser sends a request.
+● The server responds and sends back the
+requested information as an HTML file.
+
+these requests are processed by APIs we have
+written using Flask. To render these pages APIs are used.
+To call these APIs we’ll use AJAX today.
+
+APIs:
+An API (Application Programming Interface) is a software
+intermediary that allows two applications to talk to each
+other. They are written to make requests to get or send
+some information from the server.
+
+
+Types of Request:
+The most common types of request methods are GET and
+POST. In GET, the client (browser) sends a request to get
+some data from the server. Whereas, in POST, the client
+sends the data to the server.
+
+What is AJAX?
+
+AJAX stands for Asynchronous JavaScript And XML.
+
+AJAX is not a programming language but it uses
+JavaScript.
+
+AJAX is used to send and receive data from HTML to
+Python files. We’ll be using jQuery to create the AJAX call.
+
+JQuery is a JavaScript Library. It uses CSS style
+selectors to select elements of an HTML page such as
+buttons, text inputs, etc, and uses AJAX to change the
+state of these elements.
+
+How is jQuery used?
+
+jQuery is a JavaScript library. The purpose of jQuery is to
+make it much easier to use JavaScript on websites.
+jQuery is used to shorten the JavaScript code to
+accomplish and wrap them into methods that you can call
+with a single line of code.
+Selectors are used to select one or more HTML elements
+using jQuery. Once an element is selected then we can
+perform various operations on that selected element using
+AJAX.
+
+“$” denotes that we are using a jQuery selector. It is
+followed by the action to be performed on the HTML
+element.
+Inside selector, we give:
+1. The element to be selected. For e.g., p stands for
+paragraph. e.g. $(p)
+2. Class selector by giving class name followed by ‘.’
+.e.g. $(“.demo”)
+3. Id selector by writing id of the HTML element
+followed by #. e.g. $(“#demo”)
